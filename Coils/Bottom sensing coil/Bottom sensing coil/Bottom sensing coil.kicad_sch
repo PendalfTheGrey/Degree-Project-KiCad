@@ -5,22 +5,22 @@
 	(uuid "38c91b10-5af9-4b32-b547-d33c3020bbb1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
+		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x04_Socket"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Generic connector, single row, 01x04, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,11 +80,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+			(symbol "Conn_01x04_Socket_1_1"
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -93,158 +93,22 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:Conn_01x02_Socket"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Socket_1_1"
 				(arc
 					(start 0 -2.032)
 					(mid -0.5058 -2.54)
 					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -277,6 +141,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
 					(start 0 0.508)
 					(mid -0.5058 0)
@@ -289,8 +165,20 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -308,7 +196,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -318,6 +206,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -410,49 +334,8 @@
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 101.6 55.88) (xy 113.03 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64eeadce-66a1-4a88-9a04-fa2fcf0aa0de")
-	)
-	(wire
-		(pts
-			(xy 115.57 44.45) (xy 109.22 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f6e4ee9-fc59-4f17-bd17-23debb3200f1")
-	)
-	(wire
-		(pts
-			(xy 101.6 53.34) (xy 107.95 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3643b3c-7d99-4f4a-b0c8-e5612dd1e7a5")
-	)
-	(label "coil end"
-		(at 115.57 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "380eeb75-b437-471c-a4e6-ae0768b628c8")
-	)
-	(label "coil end"
-		(at 107.95 53.34 0)
+	(label "coil start"
+		(at 97.79 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -460,10 +343,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "489ce19b-9aaa-4a4d-b242-a490322f5aef")
+		(uuid "82afbf0b-6f50-4f4b-87e1-cc886bffac28")
 	)
-	(label "coil start"
-		(at 113.03 55.88 0)
+	(label "coil end"
+		(at 97.79 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -471,18 +354,29 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ae15ecca-9b3d-4295-bae6-23f9ec884fee")
+		(uuid "92f4c1b9-fd41-4461-a2f2-1bbe6641c8d2")
 	)
-	(label "coil start"
-		(at 109.22 44.45 180)
+	(label "coil end"
+		(at 97.79 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "c6375fb2-06df-4e8f-9ffd-0756e87e75e3")
+		(uuid "c39c14b6-583b-4b45-a4ef-be5305fb2363")
+	)
+	(label "coil start"
+		(at 97.79 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e365d4e7-afa2-41ad-a89d-33330437cdda")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -512,7 +406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 83.82 91.44 0)
 			(effects
 				(font
@@ -549,76 +443,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 120.65 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "578e3769-b706-455f-b99a-e669ef85662f")
-		(property "Reference" "J2"
-			(at 121.92 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 121.92 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 120.65 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 120.65 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4b94a1e-f29d-474e-b3df-8f3b8035c244")
-		)
-		(pin "2"
-			(uuid "9a5c7351-badc-4870-b77a-de6704f5ea22")
-		)
-		(instances
-			(project "Bottom sensing coil"
-				(path "/38c91b10-5af9-4b32-b547-d33c3020bbb1"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 83.82 85.09 0)
 		(unit 1)
@@ -646,7 +470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 83.82 85.09 0)
 			(effects
 				(font
@@ -710,7 +534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 83.82 97.79 0)
 			(effects
 				(font
@@ -747,33 +571,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 96.52 55.88 180)
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 92.71 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb81164d-31e5-4b2d-8de4-24039fe77895")
+		(uuid "da376a3b-a54f-42b7-9d1b-bf6b455e91db")
 		(property "Reference" "J1"
-			(at 97.155 48.26 0)
+			(at 93.345 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 97.155 50.8 0)
+		(property "Value" "Conn_01x04_Socket"
+			(at 93.345 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 96.52 55.88 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal"
+			(at 92.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,7 +606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 55.88 0)
+			(at 92.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,8 +614,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 96.52 55.88 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 92.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,10 +624,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf37cfd9-b9ab-4ca8-8261-ad56e08212b2")
+			(uuid "57dfcc92-65c0-4102-8457-d7e590d49125")
+		)
+		(pin "4"
+			(uuid "f96a79ef-c1cd-463a-a465-95c9f36ed9df")
 		)
 		(pin "2"
-			(uuid "f9a5e8f0-d8c5-4e9b-83d4-cc1d84afbcd7")
+			(uuid "67362d85-1e7e-4eac-b245-b87835b29bbb")
+		)
+		(pin "3"
+			(uuid "d34759aa-0075-4b1d-a013-670a7f1cb00d")
 		)
 		(instances
 			(project "Bottom sensing coil"
@@ -842,7 +672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 83.82 78.74 0)
 			(effects
 				(font

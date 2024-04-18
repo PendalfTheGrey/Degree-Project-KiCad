@@ -1,11 +1,11 @@
-23142127719558754
+23157551231838997
 Amphenol 112404
 CONN_112404_AMP
 
 112404 
 0
 5
-5
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66149,6 +66149,69 @@ net tie
 0
 4
 4
+Opa3692 SOIC
+D16
+
+OPA3692ID 
+0
+16
+16
+Opa3692 SOIC
+D16-L
+
+OPA3692ID 
+0
+16
+16
+Opa3692 SOIC
+D16-M
+
+OPA3692ID 
+0
+16
+16
+Opa3692 SOIC
+DBQ16
+
+OPA3692IDBQR 
+0
+16
+16
+Opa3692 SOIC
+DBQ16-L
+
+OPA3692IDBQR 
+0
+16
+16
+Opa3692 SOIC
+DBQ16-M
+
+OPA3692IDBQR 
+0
+16
+16
+Opa3692 SSOP
+DBQ16
+
+OPA3692IDBQR 
+0
+16
+16
+Opa3692 SSOP
+DBQ16-L
+
+OPA3692IDBQR 
+0
+16
+16
+Opa3692 SSOP
+DBQ16-M
+
+OPA3692IDBQR 
+0
+16
+16
 Opa3962
 DBQ16
 
