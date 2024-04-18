@@ -2196,12 +2196,6 @@
 		(uuid "035ec9c0-3252-445d-a131-4044a8db2b4d")
 	)
 	(junction
-		(at 217.17 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0eca4d89-5bb5-41d1-a404-4191afb8e7b6")
-	)
-	(junction
 		(at 119.38 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2224,6 +2218,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ebd6812-b693-4f46-ac26-d732a17b9abd")
+	)
+	(junction
+		(at 217.17 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62e4134c-a2fb-4372-8e46-3da8e7092b8d")
 	)
 	(junction
 		(at 118.11 67.31)
@@ -4709,6 +4709,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 241.3 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a394932-ba1d-4964-ab9f-5e0f0370c884")
+		(property "Reference" "J2"
+			(at 243.84 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 243.84 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 241.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 241.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffff267d-aff1-48e0-bf13-eb687852a917")
+		)
+		(instances
+			(project "Transmitter loadsharing"
+				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 182.88 252.73 0)
 		(unit 1)
@@ -4773,79 +4840,6 @@
 			(project "Transmitter loadsharing"
 				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 222.25 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ed705b1-5529-419b-888b-37c7f4eca0c9")
-		(property "Reference" "J6"
-			(at 224.79 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 224.79 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 222.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 222.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "104adbdd-d37d-4fe9-be33-9329edfbe45d")
-		)
-		(instances
-			(project "Transmitter loadsharing"
-				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-			(project "Transmitter prototype"
-				(path "/c11cda7e-a7f0-42b6-b4a5-7aa6ec037d29"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5740,6 +5734,76 @@
 			(project "Transmitter loadsharing"
 				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 217.17 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33789fff-b615-4569-bd4b-b2c60258aaf7")
+		(property "Reference" "J6"
+			(at 222.25 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 222.25 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 217.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e84a1bf2-679c-4e9a-b09b-1748c858b9b4")
+		)
+		(pin "1"
+			(uuid "4df33781-d5ba-4b82-afc9-e0967395cbc9")
+		)
+		(instances
+			(project "Transmitter loadsharing"
+				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7655,6 +7719,73 @@
 			(project "Transmitter loadsharing"
 				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 219.71 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c399bc6-edaf-4a2b-8923-bb3a8cbcd948")
+		(property "Reference" "#PWR023"
+			(at 219.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c02286ce-5743-4f2e-81a2-1e26bd6ccbdf")
+		)
+		(instances
+			(project "Transmitter loadsharing"
+				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9971,6 +10102,73 @@
 			(project "Transmitter loadsharing"
 				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 241.3 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2a7ef3c-62b7-42c1-af7c-f16aaff2dd10")
+		(property "Reference" "#PWR034"
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f36c63cf-3eeb-4901-b69c-36be90b57b08")
+		)
+		(instances
+			(project "Transmitter loadsharing"
+				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
