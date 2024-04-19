@@ -10412,8 +10412,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Antenna\n"
-		(at 153.75 69.25 0)
+	(gr_text "Coil"
+		(at 155.275119 69.25 0)
 		(layer "F.SilkS")
 		(uuid "cceefe0f-3afa-4ebd-9f75-05afe38c0109")
 		(effects
