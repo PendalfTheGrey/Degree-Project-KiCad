@@ -1,4 +1,4 @@
-23159190258705855
+23166044336783108
 AD8692
 R-8_ADI
 
@@ -34,6 +34,13 @@ audio belton reverb
 0
 7
 7
+BNC 112404
+CONN_112404_AMP
+
+112404 
+0
+5
+5
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -66163,24 +66170,45 @@ net tie
 0
 4
 4
-OPA3692ID
+OPA3692 SOIC
 D16
 
 OPA3692ID 
 0
 16
 16
-OPA3692ID
+OPA3692 SOIC
 D16-L
 
 OPA3692ID 
 0
 16
 16
-OPA3692ID
+OPA3692 SOIC
 D16-M
 
 OPA3692ID 
+0
+16
+16
+OPA3692 SSOP
+DBQ16
+
+OPA3692IDBQR 
+0
+16
+16
+OPA3692 SSOP
+DBQ16-L
+
+OPA3692IDBQR 
+0
+16
+16
+OPA3692 SSOP
+DBQ16-M
+
+OPA3692IDBQR 
 0
 16
 16
