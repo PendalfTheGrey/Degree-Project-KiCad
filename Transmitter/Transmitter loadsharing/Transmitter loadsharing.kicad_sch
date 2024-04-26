@@ -11068,7 +11068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "132289 SMA:CONN_132289_AMP"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 22.86 83.82 0)
 			(effects
 				(font
@@ -14466,7 +14466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "132289 SMA:CONN_132289_AMP"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 21.59 107.95 0)
 			(effects
 				(font
