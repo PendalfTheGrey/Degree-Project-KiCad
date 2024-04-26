@@ -3199,6 +3199,12 @@
 		(uuid "0aecd61a-49d3-460f-b15f-92ef499fb9b8")
 	)
 	(junction
+		(at 163.83 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b63514d-6c35-41b6-bc63-3f6ff94de410")
+	)
+	(junction
 		(at 48.26 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3373,6 +3379,12 @@
 		(uuid "7ba34a25-25c2-4ff7-af4c-4338048e49bb")
 	)
 	(junction
+		(at 85.09 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8273b4f9-5e68-4c97-be46-54da9c1606de")
+	)
+	(junction
 		(at 236.22 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3395,6 +3407,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c9d8b05-e914-4c19-9cf4-4d5e6d209da8")
+	)
+	(junction
+		(at 156.21 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cd45e23-8a79-4389-87de-e67ec1ac8680")
 	)
 	(junction
 		(at 203.2 243.84)
@@ -4400,6 +4418,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 154.94) (xy 163.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8cf83a-6e08-44c3-8d2b-fce50eab5748")
+	)
+	(wire
+		(pts
 			(xy 167.64 118.11) (xy 162.56 118.11)
 		)
 		(stroke
@@ -4630,6 +4658,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 96.52) (xy 171.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70598e4c-3bc9-4b39-ae50-deab5a8dfafa")
+	)
+	(wire
+		(pts
 			(xy 270.51 210.82) (xy 276.86 210.82)
 		)
 		(stroke
@@ -4820,7 +4858,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 109.22) (xy 90.17 109.22)
+			(xy 80.01 109.22) (xy 85.09 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5000,6 +5038,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 157.48) (xy 156.21 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "974abfd8-7cc7-4504-905f-a775bc1fd67c")
+	)
+	(wire
+		(pts
 			(xy 284.48 111.76) (xy 289.56 111.76)
 		)
 		(stroke
@@ -5117,6 +5165,16 @@
 			(type default)
 		)
 		(uuid "a239174d-6ed5-406e-a123-9280a5aeb56d")
+	)
+	(wire
+		(pts
+			(xy 85.09 109.22) (xy 90.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27af74c-46c7-4c71-9d25-dfe881265be6")
 	)
 	(wire
 		(pts
@@ -5310,6 +5368,26 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 154.94) (xy 161.29 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4611742-a7b4-4d2a-bd70-05dbd8504d29")
+	)
+	(wire
+		(pts
+			(xy 158.75 154.94) (xy 158.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b473eef4-a6fe-4ac5-a4d0-2a3fa3921515")
+	)
+	(wire
+		(pts
 			(xy 54.61 242.57) (xy 49.53 242.57)
 		)
 		(stroke
@@ -5367,6 +5445,16 @@
 			(type default)
 		)
 		(uuid "baa62a41-0e6c-469b-b1d1-a3b380913e29")
+	)
+	(wire
+		(pts
+			(xy 156.21 154.94) (xy 156.21 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbdc517f-5bcd-4cfb-9b93-f9b50e4988e5")
 	)
 	(wire
 		(pts
@@ -5530,6 +5618,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 157.48) (xy 163.83 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefe7421-cb08-4177-829b-136500c80f91")
+	)
+	(wire
+		(pts
 			(xy 156.21 114.3) (xy 186.69 114.3)
 		)
 		(stroke
@@ -5547,6 +5645,16 @@
 			(type default)
 		)
 		(uuid "cf070b8c-8a38-4155-90a5-ac97001b859f")
+	)
+	(wire
+		(pts
+			(xy 156.21 154.94) (xy 158.75 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1b6d39-8d81-4896-9f8f-c84e3bc941d7")
 	)
 	(wire
 		(pts
@@ -5820,13 +5928,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 91.44) (xy 171.45 95.25)
+			(xy 163.83 154.94) (xy 161.29 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed67efab-fa1d-4095-b584-68ff1482f05e")
+		(uuid "ed4f5daa-7f04-437d-8937-27f73aa154e6")
 	)
 	(wire
 		(pts
@@ -5840,7 +5948,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 91.44) (xy 168.91 95.25)
+			(xy 168.91 96.52) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5975,7 +6083,7 @@
 	)
 	(text "Loadsharing circuit\n"
 		(exclude_from_sim no)
-		(at 166.37 164.846 0)
+		(at 161.544 176.022 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -6074,13 +6182,13 @@
 		(uuid "2b38889f-c0e7-4596-b580-f0aed1fb706d")
 	)
 	(label "coil end"
-		(at 171.45 95.25 270)
+		(at 171.45 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2baaabc9-c548-4695-ad0c-c09a69cce331")
 	)
@@ -6138,6 +6246,17 @@
 			(justify left bottom)
 		)
 		(uuid "40fd4e1e-6209-41c5-bf3c-3c814c950ab1")
+	)
+	(label "coil load end"
+		(at 163.83 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4288858d-4276-42eb-86d9-d679342d70f9")
 	)
 	(label "+5V"
 		(at 123.19 176.53 0)
@@ -6316,7 +6435,7 @@
 		(uuid "9a762922-4e10-44b6-ae25-819e9df08447")
 	)
 	(label "coil load start"
-		(at 158.75 156.21 180)
+		(at 156.21 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6426,7 +6545,7 @@
 		(uuid "ab4cba5d-11e5-4946-b137-c087bc975de3")
 	)
 	(label "coil start"
-		(at 168.91 95.25 270)
+		(at 168.91 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6457,17 +6576,6 @@
 			(justify left bottom)
 		)
 		(uuid "ae830674-97db-4947-956f-1955b6972967")
-	)
-	(label "coil load end"
-		(at 161.29 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b647442e-f60d-4388-aed5-afc9eb662fae")
 	)
 	(label "loadshare input +"
 		(at 33.02 212.09 180)
@@ -9430,6 +9538,73 @@
 			(project "Transmitter loadsharing"
 				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
 					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 163.83 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31a49326-3a3f-4cef-937b-dd3399be7948")
+		(property "Reference" "#PWR044"
+			(at 163.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f40ff90-bab2-4839-a558-09c51338d5bf")
+		)
+		(instances
+			(project "Transmitter loadsharing"
+				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -12549,7 +12724,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 158.75 151.13 90)
+		(at 158.75 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12558,7 +12733,7 @@
 		(fields_autoplaced yes)
 		(uuid "67f1e4ca-8c7e-4a68-845d-55114c5dc9ba")
 		(property "Reference" "J7"
-			(at 163.83 149.8599 90)
+			(at 163.83 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12567,7 +12742,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 163.83 152.3999 90)
+			(at 163.83 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12576,7 +12751,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 158.75 151.13 0)
+			(at 158.75 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12585,7 +12760,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 151.13 0)
+			(at 158.75 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12594,7 +12769,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 158.75 151.13 0)
+			(at 158.75 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14054,6 +14229,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8513752b-205a-4faf-9f18-792a8b1ece8a")
+		(property "Reference" "J25"
+			(at 166.37 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 166.37 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ed1961f-7875-4a37-b80e-07998c9426cc")
+		)
+		(instances
+			(project "Transmitter loadsharing"
+				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 127 165.1 0)
@@ -14958,7 +15200,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 168.91 86.36 90)
+		(at 168.91 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14967,7 +15209,7 @@
 		(fields_autoplaced yes)
 		(uuid "a38ba939-e168-4b35-88d5-79ef6298f0e3")
 		(property "Reference" "J5"
-			(at 173.99 85.0899 90)
+			(at 173.99 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14976,7 +15218,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 173.99 87.6299 90)
+			(at 173.99 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14985,7 +15227,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 168.91 86.36 0)
+			(at 168.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14994,7 +15236,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 86.36 0)
+			(at 168.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15003,7 +15245,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 168.91 86.36 0)
+			(at 168.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16057,6 +16299,142 @@
 			(project "Transmitter loadsharing"
 				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 166.37 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b086fc73-4697-4489-b7fa-438343ff0856")
+		(property "Reference" "C33"
+			(at 159.385 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 161.925 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 156.21 165.4048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f52368f0-91f8-4b1b-a4ed-59ecbb3bb74b")
+		)
+		(pin "2"
+			(uuid "d001d7c8-941c-4a9b-b194-3b364fe27311")
+		)
+		(instances
+			(project "Transmitter loadsharing"
+				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 85.09 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0e2bf20-ad59-4c4e-a1b9-457b0d3c2e59")
+		(property "Reference" "J24"
+			(at 87.63 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 80.518 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65ed00bf-03d7-4336-9baa-804355f04b43")
+		)
+		(instances
+			(project "Transmitter loadsharing"
+				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -18146,6 +18524,76 @@
 			(project "Transmitter loadsharing"
 				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 157.48 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9ba34b3-9e28-4059-a6f7-8a12acab6888")
+		(property "Reference" "C34"
+			(at 159.385 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 161.925 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 156.21 156.5148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2eba565-7da5-43f2-96c0-ad7dc69e9747")
+		)
+		(pin "2"
+			(uuid "072dea41-759b-41f8-a220-1facd3cf1886")
+		)
+		(instances
+			(project "Transmitter loadsharing"
+				(path "/4dee756a-58e7-4e26-8fbe-661c6c218f1e"
+					(reference "C34")
 					(unit 1)
 				)
 			)
