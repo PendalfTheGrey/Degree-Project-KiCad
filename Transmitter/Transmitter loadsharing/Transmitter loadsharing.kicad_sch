@@ -7738,7 +7738,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 nF"
+		(property "Value" "0.1 uF"
 			(at 280.67 175.2599 0)
 			(effects
 				(font
@@ -8082,7 +8082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 nF"
+		(property "Value" "0.1 uF"
 			(at 212.09 253.9999 0)
 			(effects
 				(font
@@ -8289,7 +8289,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 nF"
+		(property "Value" "0.1 uF"
 			(at 59.69 219.7099 0)
 			(effects
 				(font
@@ -9886,7 +9886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 nF"
+		(property "Value" "0.1 uF"
 			(at 58.42 252.7299 0)
 			(effects
 				(font
@@ -10670,7 +10670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 nF"
+		(property "Value" "0.1 uF"
 			(at 59.69 186.6899 0)
 			(effects
 				(font
@@ -12401,7 +12401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 nF"
+		(property "Value" "0.1 uF"
 			(at 127 173.9899 0)
 			(effects
 				(font
@@ -12981,7 +12981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 nF"
+		(property "Value" "0.1 uF"
 			(at 213.36 187.9599 0)
 			(effects
 				(font
@@ -14177,7 +14177,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 nF"
+		(property "Value" "0.1 uF"
 			(at 127 207.0099 0)
 			(effects
 				(font
@@ -15565,7 +15565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 nF"
+		(property "Value" "0.1 uF"
 			(at 280.67 208.2799 0)
 			(effects
 				(font
@@ -18478,7 +18478,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 nF"
+		(property "Value" "0.1 uF"
 			(at 213.36 220.9799 0)
 			(effects
 				(font
@@ -19531,7 +19531,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 nF"
+		(property "Value" "0.1 uF"
 			(at 125.73 240.0299 0)
 			(effects
 				(font
@@ -19937,7 +19937,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 nF"
+		(property "Value" "0.1 uF"
 			(at 279.4 241.2999 0)
 			(effects
 				(font
