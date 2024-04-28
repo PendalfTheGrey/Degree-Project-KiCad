@@ -6026,7 +6026,7 @@
 		)
 		(uuid "ffb6882f-09d2-4878-a930-5534fa48ac41")
 	)
-	(text_box "- Rset is set to 49.9k for 5V Vout according to the table  \n- SET pin can be driven by an external source for accuracy\n- 20mOhm trace ballast on the output och each regulator should be used; 1oz\ncopper, 0.25 mm trace -> 54.3  mOhm per inch -> 9.35 mm trace\n"
+	(text_box "- Rset is set to 49.9k for 5V Vout according to the table  \n- SET pin can be driven by an external source for accuracy\n- 20mOhm trace ballast on the output och each regulator should be used; 1oz\ncopper, 0.508 mm trace -> 27.1  mOhm per inch -> 18.7454 mm trace\n"
 		(exclude_from_sim no)
 		(at 226.06 123.19 0)
 		(size 50.8 19.05)
@@ -6103,17 +6103,6 @@
 			(justify left bottom)
 		)
 		(uuid "1173b7c9-14a6-48de-9f10-bfd4436461ff")
-	)
-	(label "coil load end"
-		(at 113.03 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14d7bb65-a1a5-42b2-a61d-cd2d5583ade1")
 	)
 	(label "-5V"
 		(at 147.32 57.15 0)
@@ -6268,17 +6257,6 @@
 			(justify left bottom)
 		)
 		(uuid "49335076-7bfa-4b20-9a02-e1c8740898be")
-	)
-	(label "coil load start"
-		(at 110.49 156.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "572e92b5-f9a8-402a-bc7f-73f5c58d5af9")
 	)
 	(label "loadshare input +"
 		(at 31.75 179.07 180)
@@ -6632,6 +6610,17 @@
 		)
 		(uuid "c1f529cd-56a1-46e3-aa5a-31e2af5466aa")
 	)
+	(label "coil load start"
+		(at 113.03 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7fa4427-c575-4148-a682-64b1176aecca")
+	)
 	(label "-5V"
 		(at 45.72 147.32 0)
 		(fields_autoplaced yes)
@@ -6642,6 +6631,17 @@
 			(justify left bottom)
 		)
 		(uuid "ceeca9f6-5cd4-4824-9f3a-2e3928155396")
+	)
+	(label "coil load end"
+		(at 110.49 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd5143bd-a538-42e7-83f0-611e58a454cc")
 	)
 	(label "loadshare input +"
 		(at 45.72 195.58 0)
@@ -8731,7 +8731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
 			(at 110.49 151.13 0)
 			(effects
 				(font
