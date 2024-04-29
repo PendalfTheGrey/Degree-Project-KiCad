@@ -275,6 +275,24 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 30.48 -20.32 90)
+				(length 7.62)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 	)
 )
