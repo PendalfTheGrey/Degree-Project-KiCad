@@ -748,6 +748,19 @@
 		(layer "F.Fab")
 		(uuid "f2148d94-093d-4a97-8a78-94ca5e164a74")
 	)
+	(fp_text user "*"
+		(at -2.89 -1.59 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "df613d17-5f9f-46cd-a3a1-8a40bd941512")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
@@ -758,6 +771,19 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(fp_text user "*"
+		(at -2.89 -1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d84ccb7f-60f2-42c6-9b2b-f0e4ee65bb50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(pad "" smd roundrect
