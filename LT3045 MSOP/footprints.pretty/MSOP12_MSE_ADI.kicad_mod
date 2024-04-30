@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "LT3045EMSE-PBF ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0.4 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "cd134493-df15-406d-b0ee-213d4dcbd059")
@@ -65,30 +65,6 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -0.7763 -1.3732) (xy -0.7763 -0.1) (xy 0.7763 -0.1) (xy 0.7763 -1.3732)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "309375b2-be28-41b5-8a43-719252445228")
-	)
-	(fp_poly
-		(pts
-			(xy -0.7763 0.1) (xy -0.7763 1.3732) (xy 0.7763 1.3732) (xy 0.7763 0.1)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "52443fd3-a509-42a6-9707-94a33213c591")
-	)
 	(fp_line
 		(start -1.6764 2.1971)
 		(end 1.6764 2.1971)
@@ -772,29 +748,6 @@
 		(layer "F.Fab")
 		(uuid "f2148d94-093d-4a97-8a78-94ca5e164a74")
 	)
-	(fp_text user "*"
-		(at -2.47015 -3.2004 0)
-		(layer "F.SilkS")
-		(uuid "7784e5ed-53f5-4d45-b77f-e3ee1379b089")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.47015 -3.2004 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "eca5ad1d-3716-4f6e-bf71-0d0efa412db2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
@@ -807,28 +760,33 @@
 			)
 		)
 	)
-	(fp_text user "*"
-		(at -1.1684 -1.9939 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "740b2d1a-19cf-4b86-92b5-6bfd941fdaa6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
+	(pad "" smd roundrect
+		(at -0.41 -0.71)
+		(size 0.69 1.19)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5057826f-ff27-40d8-8f5c-dd1971ffce5e")
 	)
-	(fp_text user "*"
-		(at -1.1684 -1.9939 0)
-		(layer "F.Fab")
-		(uuid "e8ced760-9183-4133-aef8-106e8564da22")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
+	(pad "" smd roundrect
+		(at -0.41 0.73)
+		(size 0.69 1.19)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c308b2de-386b-4820-8c30-64681e9fb459")
+	)
+	(pad "" smd roundrect
+		(at 0.41 -0.71)
+		(size 0.69 1.19)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ccc78b0d-6992-4e8b-bd1b-f8cddf4e86a4")
+	)
+	(pad "" smd roundrect
+		(at 0.41 0.73)
+		(size 0.69 1.19)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ebf5fad8-5c7a-46f2-a44a-dd42ac2660b3")
 	)
 	(pad "1" smd rect
 		(at -2.21615 -1.6256)
@@ -902,11 +860,72 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a1bdc074-f9e9-4eac-a480-5768b0c887b2")
 	)
+	(pad "EPAD" thru_hole circle
+		(at -0.5 -0.99)
+		(size 0.6 0.6)
+		(drill 0.254)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 0)
+		(uuid "78646f0f-43e5-4fec-bbc7-5851b527dcba")
+	)
+	(pad "EPAD" thru_hole circle
+		(at -0.5 0.01)
+		(size 0.6 0.6)
+		(drill 0.254)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 0)
+		(uuid "92dad3c6-3a55-4582-a512-243f605e5b2d")
+	)
+	(pad "EPAD" thru_hole circle
+		(at -0.5 1.01)
+		(size 0.6 0.6)
+		(drill 0.254)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 0)
+		(uuid "7184c32f-771f-472e-89ff-a275435d59fa")
+	)
 	(pad "EPAD" smd rect
 		(at 0 0)
 		(size 1.7526 2.9464)
+		(property pad_prop_heatsink)
 		(layers "F.Cu" "F.Mask")
 		(uuid "88693205-4746-473e-bde9-7d8bd9432f6b")
+	)
+	(pad "EPAD" thru_hole circle
+		(at 0.5 -0.99)
+		(size 0.6 0.6)
+		(drill 0.254)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 0)
+		(uuid "642f4bfe-9c09-4419-91e4-7deaaadd850f")
+	)
+	(pad "EPAD" thru_hole circle
+		(at 0.5 0.01)
+		(size 0.6 0.6)
+		(drill 0.254)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 0)
+		(uuid "985ca951-165f-4c3b-aa30-dddbdfe52713")
+	)
+	(pad "EPAD" thru_hole circle
+		(at 0.5 1.01)
+		(size 0.6 0.6)
+		(drill 0.254)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 0)
+		(uuid "545852fd-22eb-4d02-a2ba-3a94c3f0f9bb")
 	)
 	(model "C:/Projects/KiCad/Spiral/Kicad Degree project GIT/Degree-Project-KiCad/LT3045 MSOP/MSOP12_MSE_ADI.step"
 		(offset
