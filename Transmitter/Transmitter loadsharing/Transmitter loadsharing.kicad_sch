@@ -9066,7 +9066,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "Conn_01x02_Socket Horizontal"
 			(at 110.744 148.082 90)
 			(effects
 				(font
@@ -9282,7 +9282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DDA8_2P28X2P28"
+		(property "Footprint" "THS3091:DDA8_2P28X2P28"
 			(at 55.88 207.01 0)
 			(effects
 				(font
@@ -9982,7 +9982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DDA8_2P28X2P28"
+		(property "Footprint" "THS3091:DDA8_2P28X2P28"
 			(at 209.55 208.28 0)
 			(effects
 				(font
@@ -14415,7 +14415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DDA8_2P28X2P28"
+		(property "Footprint" "THS3091:DDA8_2P28X2P28"
 			(at 54.61 240.03 0)
 			(effects
 				(font
@@ -15504,7 +15504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DDA8_2P28X2P28"
+		(property "Footprint" "THS3091:DDA8_2P28X2P28"
 			(at 209.55 175.26 0)
 			(effects
 				(font
@@ -17827,7 +17827,7 @@
 				)
 			)
 		)
-		(property "Value" "0 Ohm"
+		(property "Value" "0Ω"
 			(at 35.56 175.26 90)
 			(effects
 				(font
@@ -18106,7 +18106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DDA8_2P28X2P28"
+		(property "Footprint" "THS3091:DDA8_2P28X2P28"
 			(at 208.28 241.3 0)
 			(effects
 				(font

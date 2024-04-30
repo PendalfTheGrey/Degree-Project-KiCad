@@ -1,4 +1,4 @@
-23166129764639750
+23167844265348668
 132289 SMA
 CONN_132289_AMP
 
@@ -27,6 +27,13 @@ audio belton reverb
 0
 7
 7
+BNc_Amphenol_112640
+BNC_Amphenol_112640_Edge_mount
+
+
+0
+3
+3
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
