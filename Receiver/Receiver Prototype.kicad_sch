@@ -4306,6 +4306,12 @@
 		(uuid "46c7b305-4ce6-4d7a-8ead-c8cd23eb4919")
 	)
 	(junction
+		(at 186.69 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53b5a871-eba0-49e7-8b72-41319917f73f")
+	)
+	(junction
 		(at 46.99 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5231,6 +5237,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 236.22) (xy 186.69 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f814fe1-f9a9-471c-a074-82789544b275")
+	)
+	(wire
+		(pts
 			(xy 485.14 326.39) (xy 488.95 326.39)
 		)
 		(stroke
@@ -5348,6 +5364,16 @@
 			(type default)
 		)
 		(uuid "4ac14b16-348a-4318-921b-ce8ae6d44830")
+	)
+	(wire
+		(pts
+			(xy 184.15 236.22) (xy 186.69 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad1d5e5-7413-4c13-94f9-79e729890a1f")
 	)
 	(wire
 		(pts
@@ -5868,6 +5894,16 @@
 			(type default)
 		)
 		(uuid "8b5c4a63-ab04-4e3e-84eb-c35e8c6c5061")
+	)
+	(wire
+		(pts
+			(xy 186.69 236.22) (xy 189.23 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc0789d-eb6d-4b7d-a1a4-78ce3a0ee048")
 	)
 	(wire
 		(pts
@@ -7119,6 +7155,17 @@
 		)
 		(uuid "225db339-a343-478e-8621-ea23f59b4e45")
 	)
+	(label "Q_Filter_In"
+		(at 186.69 243.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "299694c4-257d-4be7-977c-e31b4cb8a2f1")
+	)
 	(label "Reference_In"
 		(at 232.41 181.61 180)
 		(fields_autoplaced yes)
@@ -7140,6 +7187,17 @@
 			(justify right bottom)
 		)
 		(uuid "2be308cc-5fe9-4037-86aa-390ea7cf4379")
+	)
+	(label "Q_Filter_In_IC"
+		(at 196.85 236.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d01a4a0-efed-440f-841f-ad93782a45ee")
 	)
 	(label "INB"
 		(at 27.94 88.9 180)
@@ -7306,6 +7364,17 @@
 		)
 		(uuid "4f088a24-80b5-41fb-bbf5-71796c19a302")
 	)
+	(label "Q_Filter_In_Eval"
+		(at 219.71 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58c5739d-9304-40b3-9d72-87627f72640e")
+	)
 	(label "VCC"
 		(at 148.59 177.8 0)
 		(fields_autoplaced yes)
@@ -7338,17 +7407,6 @@
 			(justify right bottom)
 		)
 		(uuid "5e5885b0-3986-47a5-b456-cc2ebc3d2830")
-	)
-	(label "Q_Filter_In"
-		(at 219.71 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f0e80e0-235c-46e5-9fe1-c87a04133ffe")
 	)
 	(label "Reference_Out"
 		(at 350.52 209.55 0)
@@ -7383,6 +7441,17 @@
 		)
 		(uuid "62559107-fd26-4e54-b160-f38016f5afa7")
 	)
+	(label "Q_Filter_In_Eval"
+		(at 176.53 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "634f8545-3a56-4541-bef6-8051b4367191")
+	)
 	(label "Q_Filter_In"
 		(at 198.12 203.2 0)
 		(fields_autoplaced yes)
@@ -7394,6 +7463,17 @@
 		)
 		(uuid "64c7a1e0-c6d9-4e39-a36c-07722095ac60")
 	)
+	(label "Q_Filter_In_IC"
+		(at 185.42 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "665ba186-c0b2-4a65-bc77-017274a3f205")
+	)
 	(label "VEE"
 		(at 144.78 86.36 0)
 		(fields_autoplaced yes)
@@ -7404,17 +7484,6 @@
 			(justify left bottom)
 		)
 		(uuid "68d930a1-e319-4ba0-80b8-ed9986fad4c0")
-	)
-	(label "IC_Q"
-		(at 486.41 316.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f0401e3-f897-46f7-b00f-b970bee18a3d")
 	)
 	(label "VCC"
 		(at 114.3 313.69 180)
@@ -7448,6 +7517,17 @@
 			(justify left bottom)
 		)
 		(uuid "7f0c0f1e-e43e-4cea-bfd0-ac5f8c2eb58b")
+	)
+	(label "Q_Filter_In_Eval"
+		(at 185.42 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83f9571c-f867-4e42-922d-d44499cf9255")
 	)
 	(label "I_Filter_In_Eval"
 		(at 219.71 46.99 180)
@@ -7625,6 +7705,17 @@
 		)
 		(uuid "9fa6080d-55a5-4f9f-8972-9b2c48b6d2a1")
 	)
+	(label "Q_Filter_In_IC"
+		(at 486.41 316.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9feb4ac4-2c16-4df8-b120-4cbc50c31877")
+	)
 	(label "Reference_Out"
 		(at 440.69 262.89 180)
 		(fields_autoplaced yes)
@@ -7635,6 +7726,17 @@
 			(justify right bottom)
 		)
 		(uuid "a9ff121e-71df-4437-9825-db94f10bb297")
+	)
+	(label "Q_Filter_In"
+		(at 185.42 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac2357a4-9da8-4f48-a096-4e9d903a00d3")
 	)
 	(label "INA"
 		(at 54.61 58.42 180)
@@ -7679,6 +7781,17 @@
 			(justify left bottom)
 		)
 		(uuid "bab663c6-f931-4a5b-bf7a-7d27a7067f62")
+	)
+	(label "Q_Filter_In_IC"
+		(at 406.4 383.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc430995-43ac-4857-87eb-bd8ba9dfc238")
 	)
 	(label "GND"
 		(at 151.13 53.34 180)
@@ -7867,17 +7980,6 @@
 		)
 		(uuid "e588f780-0bf3-49a4-a95e-2a5425798fe0")
 	)
-	(label "IC_Q"
-		(at 406.4 383.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e87a6a7c-11db-406a-a1cf-b585e0e66ab1")
-	)
 	(label "VEE"
 		(at 254 318.77 180)
 		(fields_autoplaced yes)
@@ -8026,6 +8128,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 193.04 236.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00b25749-097f-449f-ae64-e77305f2a4cf")
+		(property "Reference" "R27"
+			(at 193.04 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 193.04 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 193.04 237.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99250b05-0004-4768-9a6a-bc36d6e54646")
+		)
+		(pin "1"
+			(uuid "aa37d761-adf4-4121-b743-64f1f212be65")
+		)
+		(instances
+			(project "Receiver Prototype"
+				(path "/3aa39536-321e-46e0-967e-be2d644a910c"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 511.81 321.31 90)
 		(unit 1)
@@ -8120,7 +8290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "1N4148WS-HE3-18:CR_HE3-18_VIS"
 			(at 335.28 213.36 0)
 			(effects
 				(font
@@ -9072,7 +9242,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "400"
 			(at 304.8 55.8799 0)
 			(effects
 				(font
@@ -9964,7 +10134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
+		(property "Footprint" "BNC 112640:BNC_Amphenol_112640_Edge_mount"
 			(at 114.3 25.4 0)
 			(effects
 				(font
@@ -10099,7 +10269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "1N4148WS-HE3-18:CR_HE3-18_VIS"
 			(at 322.58 213.36 0)
 			(effects
 				(font
@@ -11705,6 +11875,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 190.5 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58693d1b-d4e2-4d21-925f-c84a0504fa87")
+		(property "Reference" "J30"
+			(at 193.04 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 193.04 220.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 190.5 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 190.5 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "195687cd-a236-454f-b84c-3f4c63ef4f42")
+		)
+		(pin "1"
+			(uuid "1ca78b38-9847-473c-b024-b80d010f4f75")
+		)
+		(pin "3"
+			(uuid "c052fd43-0c39-4545-82ca-e2c16c5aa786")
+		)
+		(instances
+			(project "Receiver Prototype"
+				(path "/3aa39536-321e-46e0-967e-be2d644a910c"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 269.24 76.2 0)
 		(unit 1)
@@ -13284,7 +13527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "400"
 			(at 260.35 55.8799 0)
 			(effects
 				(font
@@ -14045,7 +14288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
+		(property "Footprint" "BNC 112640:BNC_Amphenol_112640_Edge_mount"
 			(at 66.04 25.4 0)
 			(effects
 				(font
@@ -16362,7 +16605,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dd0e3520-1da7-4022-839c-6fc74bea649c")
 		(property "Reference" "J6"
 			(at 194.31 52.0699 0)
@@ -16374,7 +16616,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 194.31 54.6099 0)
+			(at 185.42 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17678,6 +17920,74 @@
 			(project "Receiver Prototype"
 				(path "/3aa39536-321e-46e0-967e-be2d644a910c"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 236.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f95bfd78-c39b-494d-bff1-e782c2714d43")
+		(property "Reference" "R26"
+			(at 180.34 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 180.34 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 180.34 237.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b06c8929-0228-4d56-8439-cf255a1d1b72")
+		)
+		(pin "1"
+			(uuid "a15f363b-eb15-4ad7-8c15-c6ede0b82af2")
+		)
+		(instances
+			(project "Receiver Prototype"
+				(path "/3aa39536-321e-46e0-967e-be2d644a910c"
+					(reference "R26")
 					(unit 1)
 				)
 			)
