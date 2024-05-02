@@ -8290,7 +8290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1N4148WS-HE3-18:CR_HE3-18_VIS"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 335.28 213.36 0)
 			(effects
 				(font
@@ -10269,7 +10269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "1N4148WS-HE3-18:CR_HE3-18_VIS"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 322.58 213.36 0)
 			(effects
 				(font
@@ -13239,7 +13239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AD8692:R-8_ADI"
+		(property "Footprint" "AD8692:SOIC127P600X175-8N"
 			(at 97.79 177.8 0)
 			(effects
 				(font
