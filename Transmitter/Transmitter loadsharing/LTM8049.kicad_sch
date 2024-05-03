@@ -1893,6 +1893,12 @@
 		(uuid "9aff9bd8-175e-43d2-918d-4d36c7b5563e")
 	)
 	(junction
+		(at 63.5 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7af156d-173e-4c74-9008-a68c89217030")
+	)
+	(junction
 		(at 77.47 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1908,13 +1914,7 @@
 		(at 99.06 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "afcb0ae7-6a6c-4d0a-ac5a-ae000e140160")
-	)
-	(junction
-		(at 68.58 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5d516f1-b2ba-4e50-9eb8-b0e95856e026")
+		(uuid "d3769534-ea3f-442c-8d14-2a65e91557fa")
 	)
 	(junction
 		(at 172.72 111.76)
@@ -1969,6 +1969,16 @@
 			(type default)
 		)
 		(uuid "042e0a51-cfdc-4e9c-ac51-aabc76970ce6")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "074707d7-13b8-49c9-830e-f56e596260ac")
 	)
 	(wire
 		(pts
@@ -2029,6 +2039,16 @@
 			(type default)
 		)
 		(uuid "1f7fba88-3b4c-4d1f-921a-62335e662223")
+	)
+	(wire
+		(pts
+			(xy 63.5 142.24) (xy 76.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2770c823-5695-474d-921a-bf2d8856163c")
 	)
 	(wire
 		(pts
@@ -2152,33 +2172,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 101.6) (xy 107.95 101.6)
+			(xy 99.06 96.52) (xy 99.06 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6cca74dd-6979-46be-b81c-b2ee6b50ff13")
-	)
-	(wire
-		(pts
-			(xy 63.5 142.24) (xy 68.58 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d27584-c94f-4b8a-a52e-98da9219a00b")
-	)
-	(wire
-		(pts
-			(xy 99.06 52.07) (xy 99.06 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bc55dbf-3b76-4bb9-9444-3b735eabdbff")
+		(uuid "76863c92-472c-4200-b2dd-4f8a19755da4")
 	)
 	(wire
 		(pts
@@ -2192,23 +2192,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 142.24) (xy 68.58 73.66)
+			(xy 58.42 142.24) (xy 58.42 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8105347a-f408-4a6b-95af-9841d093ef56")
-	)
-	(wire
-		(pts
-			(xy 99.06 73.66) (xy 99.06 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1a6569b-ce0c-49c1-a575-951a8e895520")
 	)
 	(wire
 		(pts
@@ -2262,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 73.66) (xy 99.06 73.66)
+			(xy 58.42 73.66) (xy 99.06 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2302,13 +2292,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 106.68) (xy 100.33 101.6)
+			(xy 99.06 52.07) (xy 99.06 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d33d9530-797f-463f-8d44-313d5aeff9ef")
+		(uuid "d814766b-2950-4738-b6b3-d37c7af1b497")
 	)
 	(wire
 		(pts
@@ -2322,6 +2312,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 99.06) (xy 83.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea835755-aaf1-4798-ad3a-bcb87f3c273c")
+	)
+	(wire
+		(pts
 			(xy 99.06 52.07) (xy 167.64 52.07)
 		)
 		(stroke
@@ -2332,13 +2332,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 142.24) (xy 76.2 142.24)
+			(xy 58.42 142.24) (xy 63.5 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5390089-031b-48ca-ac80-7abd3973103c")
+		(uuid "f2580a84-51cb-4203-80fe-59b58f5579fe")
 	)
 	(label "+Vout"
 		(at 172.72 87.63 0)
@@ -2351,8 +2351,8 @@
 		)
 		(uuid "1cb2d704-e547-475f-b379-16a13134c165")
 	)
-	(label "+Vout"
-		(at 83.82 99.06 180)
+	(label "LMT8049 Set"
+		(at 165.1 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2360,18 +2360,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "481b84f0-4e70-413f-9708-88015ffc8695")
+		(uuid "3f21398a-f8ad-4db5-86cf-c6173d2901a4")
 	)
-	(label "LMT8049 set"
-		(at 168.91 95.25 90)
+	(label "LMT8049 Set"
+		(at 107.95 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "4eb45e0c-7c40-446e-a2ed-d49f36123be8")
+		(uuid "424b1259-696a-4f36-8b18-874dce2a17ff")
 	)
 	(label "RT1-2"
 		(at 81.28 149.86 270)
@@ -2395,6 +2395,17 @@
 		)
 		(uuid "822f6c14-5712-4b35-98f5-e1b03e2f8e8b")
 	)
+	(label "+Vout"
+		(at 80.01 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f6b9129-f703-4663-be2f-102f1bfb12d9")
+	)
 	(label "RT1-2"
 		(at 186.69 134.62 0)
 		(fields_autoplaced yes)
@@ -2405,28 +2416,6 @@
 			(justify left bottom)
 		)
 		(uuid "930bb5c4-1b69-4eba-8be2-c079f677f7ac")
-	)
-	(label "+Vout"
-		(at 107.95 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aa98b15c-50e6-4505-95c3-035ab8c69db0")
-	)
-	(label "LMT8049 set"
-		(at 100.33 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b387ac53-f91e-4344-9a33-54815097e02c")
 	)
 	(label "+Vout"
 		(at 107.95 63.5 180)
@@ -2441,7 +2430,7 @@
 	)
 	(hierarchical_label "Vin"
 		(shape input)
-		(at 72.39 73.66 90)
+		(at 62.23 73.66 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
