@@ -403,16 +403,16 @@
 		)
 		(pad "3" thru_hole circle
 			(at 16.12 -0.07 90)
-			(size 1.2 1.2)
-			(drill 0.55)
+			(size 2 2)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "683d0196-6513-4c2f-a2cc-30e07309d9bd")
 		)
 		(pad "3" thru_hole circle
 			(at 26.92 4.47 90)
-			(size 1.2 1.2)
-			(drill 0.55)
+			(size 2 2)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "58166e21-fdbc-4d49-9f70-8fa6f507b038")
@@ -1719,23 +1719,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "fb16baa9-755b-4fd0-9aa9-73a06fd576c7")
-	)
-	(group ""
-		(uuid "c8b28fda-fb7a-46a3-9492-ce358ff4347a")
-		(members "08a3f0d5-a46f-4cde-8c0d-88d9134f8d28" "09948556-46c6-49ab-82b8-aba3c511a158"
-			"23911289-217c-4660-a974-185445f8a3e0" "31b7a3c4-fb38-4113-9120-11d65654b4e0"
-			"37576dd5-c50e-4344-8a90-75fe318802da" "43cbfbf4-3374-4ed2-9d1c-b9bd4852660f"
-			"5080a880-8a2f-474c-8135-a668a2582266" "5557cbad-b761-4f2d-9a96-a30c43214de2"
-			"58c5db71-fcf1-44d1-a90a-382357d93bfb" "67dea639-4b07-4257-9dff-5a9fa080f34a"
-			"721fa5f7-7e32-45b0-9d40-280d08cc6881" "7977b479-71e2-4015-ae86-58200bc51bc7"
-			"79deb950-147f-4d4e-a2c0-d32b38151961" "8d5d346f-9d18-439b-a822-4c5cc8bbd23c"
-			"9bda4fe9-dc86-4f3e-a409-b6f7802714ef" "b055f1b0-442a-41ca-897b-1c0235c82a6d"
-			"b73963cd-3e65-4c45-811f-c40946bec380" "c19436dd-51fb-43ca-a9c3-9892434a5fdc"
-			"c5d7f96e-0b21-41a5-b1bb-0ae3b8429339" "ccbf297f-60a7-4df8-ae07-cadfbbce576e"
-			"d5148b71-c2f1-4752-b5a8-a2cc4f6f9f0a" "dce28e18-7bcd-48bf-8584-020020bd9bb5"
-			"e70e1a24-5552-483a-b8bb-f1d9f8a4c234" "fb16baa9-755b-4fd0-9aa9-73a06fd576c7"
-			"fbea5557-41fc-41b0-83e2-b3a1160f0a00"
-		)
 	)
 	(group ""
 		(uuid "43cbfbf4-3374-4ed2-9d1c-b9bd4852660f")

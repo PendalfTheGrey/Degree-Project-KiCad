@@ -1,4 +1,25 @@
-23166129764922414
+23178129199358457
+1% resistor
+RES_CRCW_0603
+
+CRCW060324K9FKEA 
+0
+2
+2
+1% resistor
+RES_CRCW_0603-L
+
+CRCW060324K9FKEA 
+0
+2
+2
+1% resistor
+RES_CRCW_0603-M
+
+CRCW060324K9FKEA 
+0
+2
+2
 132289 SMA
 CONN_132289_AMP
 
@@ -27,6 +48,13 @@ audio belton reverb
 0
 7
 7
+BNc_Amphenol_112640
+BNC_Amphenol_112640_Edge_mount
+
+
+0
+5
+2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -66241,6 +66269,27 @@ OPA3692IDBQR
 16
 16
 Opa3692 SOIC
+DBQ16-M
+
+OPA3692IDBQR 
+0
+16
+16
+Opa3692 SSOP
+DBQ16
+
+OPA3692IDBQR 
+0
+16
+16
+Opa3692 SSOP
+DBQ16-L
+
+OPA3692IDBQR 
+0
+16
+16
+Opa3692 SSOP
 DBQ16-M
 
 OPA3692IDBQR 

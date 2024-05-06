@@ -406,7 +406,7 @@
 	(footprint "Top sensing coik"
 		(layer "F.Cu")
 		(uuid "a0980403-8bc3-4fe2-bedd-f2a343f1383e")
-		(at 179.6343 127.7702)
+		(at 179.61 127.76)
 		(property "Reference" "REF**"
 			(at 0 0 0)
 			(unlocked yes)
@@ -1639,21 +1639,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "c1e824af-f5ee-4536-9052-9e057f9c153d")
-	)
-	(group ""
-		(uuid "456aef32-1544-4b4c-8333-8537f3b87121")
-		(members "0983a8b6-e05b-4e90-86f0-2ec26d8243b9" "1aff5de9-3b05-48e9-9b56-f04d94e861d0"
-			"1b1254fa-3e5b-426d-af85-557729cb2266" "1dc95f1f-9eb9-46d5-92c7-d03396abb6e8"
-			"2a3e1d69-24b1-4367-96ef-8026e52f77d9" "34ce22b7-6f16-4384-83a5-7ea790f4913c"
-			"3b179f83-0c2d-48d1-92e6-6b90469de76e" "40f66516-42ef-430a-a015-479538c62a99"
-			"67f27e21-539c-4e19-b3d7-59ecd18bddae" "78d8a6bc-3c50-44d7-93f9-978656f11ed5"
-			"7af8a61a-6e76-4a78-ba0c-0efa05c25db2" "824b128f-ff58-4802-b877-6a3ad7580c26"
-			"9684ca19-5c97-434d-894f-06ea7f45689b" "a0980403-8bc3-4fe2-bedd-f2a343f1383e"
-			"afa664c1-24a1-45f5-9019-2c254c501014" "bb3654a7-99a1-4f5f-a5f1-5804b88c5cff"
-			"be4876fe-cb40-480b-9ee3-6a92b50950c9" "c1e824af-f5ee-4536-9052-9e057f9c153d"
-			"e9ad06a0-9fa9-46b3-92a9-fdab522c63f0" "f606fcbd-e7bd-41a6-922b-e77bce6cb7c8"
-			"f8b669c3-f94d-4cda-86a4-477d072f5f3e"
-		)
 	)
 	(group ""
 		(uuid "1aff5de9-3b05-48e9-9b56-f04d94e861d0")
