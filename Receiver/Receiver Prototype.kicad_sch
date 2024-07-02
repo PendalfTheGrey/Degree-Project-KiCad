@@ -4119,6 +4119,12 @@
 		(uuid "1c90adf4-0692-4de1-a3d1-0454e1847368")
 	)
 	(junction
+		(at 91.44 368.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23d8acb2-8220-4e45-bc3a-8cdaefaac43f")
+	)
+	(junction
 		(at 494.03 347.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4443,6 +4449,12 @@
 		(uuid "ec535022-abc8-4957-b1f6-3eca9c41c033")
 	)
 	(junction
+		(at 212.09 368.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed609c21-470a-4f80-9c66-a34418adceb3")
+	)
+	(junction
 		(at 492.76 318.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4597,6 +4609,16 @@
 			(type default)
 		)
 		(uuid "04e1b44d-01d6-4adb-a05a-713919279da4")
+	)
+	(wire
+		(pts
+			(xy 208.28 368.3) (xy 212.09 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fe4cb6-7e02-45c2-b9a2-06b19800f786")
 	)
 	(wire
 		(pts
@@ -4957,6 +4979,16 @@
 			(type default)
 		)
 		(uuid "30912510-1392-45b6-b545-2f66bc59b107")
+	)
+	(wire
+		(pts
+			(xy 212.09 368.3) (xy 212.09 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3382ecae-7140-4422-a53e-3ddd30a93bc1")
 	)
 	(wire
 		(pts
@@ -5407,6 +5439,16 @@
 			(type default)
 		)
 		(uuid "5f964da7-079b-4dee-8722-36527b03ae37")
+	)
+	(wire
+		(pts
+			(xy 87.63 368.3) (xy 91.44 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd9026a-91a8-429c-983e-fa5b3b1ea7bb")
 	)
 	(wire
 		(pts
@@ -6140,6 +6182,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 368.3) (xy 95.25 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af32d93a-398e-461a-8e22-c76dcba5e0be")
+	)
+	(wire
+		(pts
 			(xy 431.8 311.15) (xy 444.5 311.15)
 		)
 		(stroke
@@ -6227,6 +6279,16 @@
 			(type default)
 		)
 		(uuid "b9adf4ef-307b-4044-aedb-4ac3af1ef9d7")
+	)
+	(wire
+		(pts
+			(xy 212.09 368.3) (xy 215.9 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb603a58-9699-4451-8817-59fa632ea73e")
 	)
 	(wire
 		(pts
@@ -6567,6 +6629,16 @@
 			(type default)
 		)
 		(uuid "e0180798-6466-4660-af76-4e6ccc12ecec")
+	)
+	(wire
+		(pts
+			(xy 91.44 368.3) (xy 91.44 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04742fa-d80c-4b10-922f-8d72cd04579e")
 	)
 	(wire
 		(pts
@@ -7057,6 +7129,17 @@
 		)
 		(uuid "183158b3-3197-4f48-a2ae-31932cb80b44")
 	)
+	(label "VEE"
+		(at 212.09 373.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "183b3b8a-a1a8-4b8a-baf9-6fc8fdcff2b3")
+	)
 	(label "GND"
 		(at 327.66 55.88 180)
 		(fields_autoplaced yes)
@@ -7200,6 +7283,17 @@
 		)
 		(uuid "3a24287c-8e53-4ef4-b730-99eeaa9eaf70")
 	)
+	(label "Reference_In"
+		(at 501.65 209.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d84b6a1-69c2-41b3-8633-d6c5803a6d13")
+	)
 	(label "IC_Gain"
 		(at 419.1 365.76 180)
 		(fields_autoplaced yes)
@@ -7255,17 +7349,6 @@
 		)
 		(uuid "4590ce90-a020-4d9f-9c8f-82e009541cc1")
 	)
-	(label "VPS1"
-		(at 444.5 313.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "46b79693-a320-4c3a-936b-e9d8420e0c2f")
-	)
 	(label "PWR-"
 		(at 107.95 39.37 180)
 		(fields_autoplaced yes)
@@ -7320,6 +7403,17 @@
 			(justify left bottom)
 		)
 		(uuid "4f088a24-80b5-41fb-bbf5-71796c19a302")
+	)
+	(label "VCC"
+		(at 91.44 373.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f7b806c-f67c-42e6-b1b7-59378d3f1bfe")
 	)
 	(label "Q_Filter_In_Eval"
 		(at 219.71 57.15 180)
@@ -7387,6 +7481,17 @@
 		)
 		(uuid "62559107-fd26-4e54-b160-f38016f5afa7")
 	)
+	(label "PWR+"
+		(at 80.01 368.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62e801f8-d281-491a-98e2-64651d4a885b")
+	)
 	(label "Q_Filter_In_Eval"
 		(at 176.53 228.6 180)
 		(fields_autoplaced yes)
@@ -7431,6 +7536,17 @@
 		)
 		(uuid "68d930a1-e319-4ba0-80b8-ed9986fad4c0")
 	)
+	(label "VCC_IC"
+		(at 444.5 313.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b9e74f5-08c9-4921-9e07-99a5661101d5")
+	)
 	(label "GND"
 		(at 327.66 50.8 180)
 		(fields_autoplaced yes)
@@ -7441,6 +7557,17 @@
 			(justify right bottom)
 		)
 		(uuid "6ebba7f8-1ede-4feb-8409-b4c24bde2d8e")
+	)
+	(label "VCC_In"
+		(at 102.87 368.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f0a0eef-3a97-4cc1-a535-e1a5b798b50b")
 	)
 	(label "VCC"
 		(at 82.55 353.06 180)
@@ -7619,7 +7746,7 @@
 		(uuid "9a26b108-6ee1-4ede-85be-ed3c96c038e7")
 	)
 	(label "VEE_In"
-		(at 208.28 340.36 180)
+		(at 204.47 355.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7729,7 +7856,7 @@
 		(uuid "ae5e38e0-b7aa-4679-bd5c-7904a4606054")
 	)
 	(label "PWR-"
-		(at 208.28 335.28 180)
+		(at 204.47 350.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7760,6 +7887,17 @@
 			(justify left bottom)
 		)
 		(uuid "b4a9a2db-547d-4f50-a8c6-054513b5ccd1")
+	)
+	(label "PWR-"
+		(at 200.66 368.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba85e3a3-fb65-4585-8945-bcbf5fb3f4e6")
 	)
 	(label "I_Filter_In_IC"
 		(at 50.8 228.6 0)
@@ -7793,6 +7931,17 @@
 			(justify right bottom)
 		)
 		(uuid "bd2e077d-8f72-425d-afb8-e7ab30d79ff1")
+	)
+	(label "VEE_In"
+		(at 223.52 368.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd61f34e-4c55-4e4c-886c-678db40c5185")
 	)
 	(label "GND"
 		(at 231.14 62.23 0)
@@ -7872,7 +8021,7 @@
 		(uuid "c879c9da-5979-4b84-bfac-b1dc119df3eb")
 	)
 	(label "Buff_In"
-		(at 481.33 195.58 180)
+		(at 501.65 198.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7993,7 +8142,7 @@
 		(uuid "e588f780-0bf3-49a4-a95e-2a5425798fe0")
 	)
 	(label "VEE"
-		(at 208.28 337.82 180)
+		(at 204.47 353.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8037,7 +8186,7 @@
 		(uuid "f31f1f80-b2d1-405e-8067-19c078945ce9")
 	)
 	(label "Buff_Out"
-		(at 481.33 201.93 180)
+		(at 501.65 204.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11883,7 +12032,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 213.36 337.82 0)
+		(at 209.55 353.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11892,7 +12041,7 @@
 		(fields_autoplaced yes)
 		(uuid "57964668-962e-436c-a1fd-12794997f493")
 		(property "Reference" "J27"
-			(at 215.9 336.5499 0)
+			(at 212.09 351.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11901,7 +12050,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 215.9 339.0899 0)
+			(at 212.09 354.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11910,7 +12059,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 213.36 337.82 0)
+			(at 209.55 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11919,7 +12068,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 337.82 0)
+			(at 209.55 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11928,7 +12077,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 213.36 337.82 0)
+			(at 209.55 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12769,6 +12918,74 @@
 			(project "Receiver Prototype"
 				(path "/3aa39536-321e-46e0-967e-be2d644a910c"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 368.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6accf99c-fcd7-4f6f-a35d-2a4908f920a7")
+		(property "Reference" "R6"
+			(at 99.06 361.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 99.06 364.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 99.06 370.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c8a9e11-de06-49e9-bda1-e35ddcd95398")
+		)
+		(pin "2"
+			(uuid "bb5b3234-8ec6-4748-9496-84b4040858d1")
+		)
+		(instances
+			(project "Receiver Prototype"
+				(path "/3aa39536-321e-46e0-967e-be2d644a910c"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14261,6 +14478,74 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 83.82 368.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e076d20-ab92-4fb3-bc0d-cfce24e7c01f")
+		(property "Reference" "R3"
+			(at 83.82 361.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 83.82 364.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 83.82 370.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "daa23c59-5b69-4a90-b82a-ad932619c89b")
+		)
+		(pin "2"
+			(uuid "eef0e554-f97f-4432-9798-d7ef059222a9")
+		)
+		(instances
+			(project "Receiver Prototype"
+				(path "/3aa39536-321e-46e0-967e-be2d644a910c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 320.04 274.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14815,35 +15100,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 486.41 195.58 0)
+		(lib_id "Device:R")
+		(at 204.47 368.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a540bccb-90bd-4b12-bf51-5d93bfddb1d7")
-		(property "Reference" "J16"
-			(at 488.95 194.3099 0)
+		(uuid "a4f34fba-aea0-4165-a75e-3e49b94e374c")
+		(property "Reference" "R30"
+			(at 204.47 361.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01"
-			(at 488.95 196.8499 0)
+		(property "Value" "0"
+			(at 204.47 364.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 486.41 195.58 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 204.47 370.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14852,7 +15135,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 486.41 195.58 0)
+			(at 204.47 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f7356ad-9ede-4797-a36d-dc8138c9d605")
+		)
+		(pin "2"
+			(uuid "eb46f21b-792b-4b3e-aa51-407a8f012d90")
+		)
+		(instances
+			(project "Receiver Prototype"
+				(path "/3aa39536-321e-46e0-967e-be2d644a910c"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 506.73 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a540bccb-90bd-4b12-bf51-5d93bfddb1d7")
+		(property "Reference" "J16"
+			(at 509.27 196.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 509.27 199.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 506.73 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 506.73 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14861,7 +15214,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 486.41 195.58 0)
+			(at 506.73 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15321,7 +15674,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 486.41 201.93 0)
+		(at 506.73 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15330,7 +15683,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa1f3edb-4a29-49e4-b380-8da9ad819727")
 		(property "Reference" "J19"
-			(at 488.95 200.6599 0)
+			(at 509.27 203.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15339,7 +15692,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 488.95 203.1999 0)
+			(at 509.27 205.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15348,7 +15701,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 486.41 201.93 0)
+			(at 506.73 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15357,7 +15710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 486.41 201.93 0)
+			(at 506.73 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15366,7 +15719,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 486.41 201.93 0)
+			(at 506.73 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16129,6 +16482,73 @@
 			(project "Receiver Prototype"
 				(path "/3aa39536-321e-46e0-967e-be2d644a910c"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 506.73 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf9026dc-4eb5-4e12-8361-4c465234d624")
+		(property "Reference" "J37"
+			(at 509.27 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 509.27 210.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 506.73 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 506.73 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 506.73 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75e0ed4e-a9c5-4d81-8ad2-092f6683e5c2")
+		)
+		(instances
+			(project "Receiver Prototype"
+				(path "/3aa39536-321e-46e0-967e-be2d644a910c"
+					(reference "J37")
 					(unit 1)
 				)
 			)
@@ -17339,6 +17759,74 @@
 			(project "Receiver Prototype"
 				(path "/3aa39536-321e-46e0-967e-be2d644a910c"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 368.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e850ee15-55b6-46f7-a279-8c80254725aa")
+		(property "Reference" "R31"
+			(at 219.71 361.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 219.71 364.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 219.71 370.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d46bc198-698f-4d6d-a3e6-2408a977c25d")
+		)
+		(pin "2"
+			(uuid "a80fd7d8-b568-45c5-ad3e-03a435cf7406")
+		)
+		(instances
+			(project "Receiver Prototype"
+				(path "/3aa39536-321e-46e0-967e-be2d644a910c"
+					(reference "R31")
 					(unit 1)
 				)
 			)
